@@ -46,3 +46,5 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
+
+  # This is a comment to see if pipeline auto builds.
